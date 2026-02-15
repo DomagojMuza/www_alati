@@ -47,6 +47,8 @@ if ( ! function_exists( 'woodmart_load_classes' ) ) {
 
 woodmart_load_classes();
 
+add_filter('woocommerce_cart_needs_payment', '__return_false');
+
 new XTS\Theme();
 
 define( 'WOODMART_VERSION', woodmart_get_theme_info( 'Version' ) );
