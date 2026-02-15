@@ -4,4 +4,6 @@
 # dinamički generirani, i trebalo bi ih mijenjati samo koristeći WordPressove filtre.
 # Sve promjene direktiva između navedenih markera bit će prepisane.
 
+php_value max_input_vars 2000
+
 # END WordPress
