@@ -4,6 +4,8 @@
  * The framework's functions and definitions
  */
 
+add_filter( 'big_image_size_threshold', '__return_false' );
+
 define( 'WOODMART_THEME_DIR', get_template_directory_uri() );
 define( 'WOODMART_THEMEROOT', get_template_directory() );
 define( 'WOODMART_IMAGES', WOODMART_THEME_DIR . '/images' );
@@ -52,3 +54,5 @@ add_filter('woocommerce_cart_needs_payment', '__return_false');
 new XTS\Theme();
 
 define( 'WOODMART_VERSION', woodmart_get_theme_info( 'Version' ) );
+
+add_filter( 'big_image_size_threshold', '__return_false' );
