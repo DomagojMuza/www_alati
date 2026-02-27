@@ -55,7 +55,7 @@ new XTS\Theme();
 
 define( 'WOODMART_VERSION', woodmart_get_theme_info( 'Version' ) );
 
-add_filter( 'woocommerce_get_availability', 'filter_product_get_availability', 10, 2);
+add_filter( 'woocommerce_get_availability', 'filter_product_get_availability', 9, 2);
 function filter_product_get_availability( $availability, $product ) {
 
 	if ($product->get_stock_status() === 'instock') 
