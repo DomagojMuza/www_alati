@@ -57,12 +57,23 @@ define( 'WOODMART_VERSION', woodmart_get_theme_info( 'Version' ) );
 
 add_filter( 'woocommerce_get_availability', 'filter_product_get_availability', 10, 2);
 function filter_product_get_availability( $availability, $product ) {
-	echo $product->get_stock_status();
+
+	if ($product->get_stock_status() === 'instock') 
+	{
+		$availability['availability'] = "Na zalihi";
+		$availability['class'] = 'in-stock';
+	}
+
+	if ($product->get_stock_status() === 'outofstock')
+	{
+		$availability['availability'] = "Na zalihi";
+		$availability['class'] = 'out-of-stock';
+	}
     // if ( $product->get_stock_status() === 'instock' ) {
     //     $availability['availability'] = wc_format_stock_for_display( $product );
     // } elseif ( $product->managing_stock() && $product->is_on_backorder( 1 ) 
     // && ! $product->backorders_require_notification() ) {
-    //     $availability['availability'] = __('In Stock', 'woocommerce');
+        // $availability['availability'] = __('In Stock', 'woocommerce');
     //     $availability['class'] = 'in-stock';
     // }
     return $availability;
