@@ -4,9 +4,9 @@
 
 /* Wrapper */
 .cfm-wrapper {
-	max-width: 720px;
+	/* max-width: 720px; */
 	margin: 0 auto;
-	padding: 16px;
+	/* padding: 16px; */
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, sans-serif;
 }
@@ -186,7 +186,7 @@
 	margin-bottom: 0;
 }
 
-.cfm-submit-btn {
+/* .cfm-submit-btn {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -215,7 +215,7 @@
 .cfm-submit-btn:active:not(:disabled) {
 	transform: translateY(0);
 	box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
-}
+} */
 
 .cfm-submit-btn:disabled {
 	opacity: 0.65;

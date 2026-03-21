@@ -157,7 +157,7 @@ class Contact_Form_Mailer {
 				<!-- Redak 5: Gumb za slanje -->
 				<div class="cfm-row cfm-submit-row">
 					<button type="submit" class="cfm-submit-btn" id="cfm-submit-btn">
-						<span class="cfm-btn-text">Pošalji poruku</span>
+						<span class="cfm-btn-text btn btn-color-primary btn-style-default btn-shape-semi-round">Pošalji poruku</span>
 						<span class="cfm-btn-spinner" aria-hidden="true"></span>
 					</button>
 				</div>
