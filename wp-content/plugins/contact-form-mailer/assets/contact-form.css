@@ -186,26 +186,11 @@
 	margin-bottom: 0;
 }
 
-/* .cfm-submit-btn {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
-	background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-	color: #ffffff;
-	border: none;
-	padding: 14px 36px;
-	font-size: 16px;
-	font-weight: 700;
-	letter-spacing: 0.02em;
-	border-radius: 9px;
-	cursor: pointer;
-	transition: opacity 0.18s, transform 0.14s, box-shadow 0.18s;
-	box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35);
-	font-family: inherit;
-	min-width: 160px;
+.cfm-submit-btn {
+	background-color: transparent !important;
+    padding: 0 !important;
 }
-
+/* 
 .cfm-submit-btn:hover:not(:disabled) {
 	opacity: 0.92;
 	transform: translateY(-2px);
