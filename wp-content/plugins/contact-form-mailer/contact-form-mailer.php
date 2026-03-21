@@ -179,7 +179,7 @@ class Contact_Form_Mailer {
 
 		// 1. Provjera nonce (CSRF zaštita)
 		if ( ! check_ajax_referer( 'cfm_nonce', 'cfm_nonce_field', false ) ) {
-			wp_send_json_error( array( 'message' => 'Sigurnosna provjera nije uspjela. Molimo osvježite stranicu i pokušajte ponovo.' ) );
+			wp_send_json_error( array( 'message' => 'Greška' ) );
 		}
 
 		// 2. Honeypot provjera (tiho propuštanje kako botovima ne bi otkrili mehanizam)
@@ -190,16 +190,16 @@ class Contact_Form_Mailer {
 		// 3. Provjera vremena (obrazac mora biti na ekranu najmanje 3 sekunde)
 		$render_time = isset( $_POST['cfm_timestamp'] ) ? absint( $_POST['cfm_timestamp'] ) : 0;
 		if ( $render_time > 0 && ( time() - $render_time ) < 3 ) {
-			wp_send_json_error( array( 'message' => 'Obrazac je poslan prebrzo. Molimo pričekajte trenutak i pokušajte ponovo.' ) );
+			wp_send_json_error( array( 'message' => 'Molimo pričekajte trenutak i pokušajte ponovo.' ) );
 		}
 
 		// 4. Ograničenje broja slanja: max 5 po IP adresi na sat
 		$ip       = $this->get_client_ip();
 		$rate_key = 'cfm_rate_' . md5( $ip );
 		$count    = (int) get_transient( $rate_key );
-		// if ( $count >= 5 ) {
-		// 	wp_send_json_error( array( 'message' => 'Previše slanja s Vaše IP adrese. Molimo pokušajte ponovo za sat vremena.' ) );
-		// }
+		if ( $count >= 5 ) {
+			wp_send_json_error( array( 'message' => 'Greška' ) );
+		}
 
 		// 5. Sanitise inputs
 		$name    = sanitize_text_field( wp_unslash( $_POST['cfm_name']    ?? '' ) );
