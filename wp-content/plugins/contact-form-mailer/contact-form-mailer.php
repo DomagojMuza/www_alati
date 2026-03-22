@@ -15,8 +15,8 @@ add_action( 'phpmailer_init', function( $phpmailer ) {
     $phpmailer->isSMTP();
     $phpmailer->Host       = 'smtp.gmail.com';
     $phpmailer->SMTPAuth   = true;
-    $phpmailer->Port       = 465;              // TLS port
-    $phpmailer->SMTPSecure = 'ssl';            // Enable TLS
+    $phpmailer->Port       = 587;              // TLS port
+    $phpmailer->SMTPSecure = 'tls';            // Enable TLS
     $phpmailer->Username   = 'domim1998@gmail.com';
     $phpmailer->Password   = 'adyd olod hcap stup'; // NOT your Gmail password
     $phpmailer->From       = 'domim1998@gmail.com';
