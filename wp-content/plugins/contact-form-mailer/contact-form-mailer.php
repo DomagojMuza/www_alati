@@ -273,7 +273,7 @@ class Contact_Form_Mailer {
 			);
 			wp_send_json_success( array( 'message' => $success_msg ) );
 		} else {
-			wp_send_json_error( array( 'message' => 'Žao nam je, poruka nije mogla biti poslana. Molimo pokušajte ponovo ili nas kontaktirajte izravno.' ) );
+			wp_send_json_error( array( 'message' => 'Žao nam je, poruka nije mogla biti poslana. Molimo pokušajte ponovo ili nas kontaktirajte izravno.', 'e' => $sent_error ) );
 		}
 	}
 
