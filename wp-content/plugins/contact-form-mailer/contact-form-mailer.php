@@ -11,6 +11,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+add_action( 'phpmailer_init', function( $phpmailer ) {
+    $phpmailer->isSMTP();
+    $phpmailer->Host       = 'smtp.gmail.com';
+    $phpmailer->SMTPAuth   = true;
+    $phpmailer->Port       = 465;              // TLS port
+    $phpmailer->SMTPSecure = 'ssl';            // Enable TLS
+    $phpmailer->Username   = 'manuela052@gmail.com';
+    $phpmailer->Password   = 'hgsu vjub tlno xkym'; // NOT your Gmail password
+    $phpmailer->From       = 'manuela052@gmail.com';
+    $phpmailer->FromName   = 'Ordino Pro Service';
+});
+
 // Load PHPMailer bundled with WordPress core (available since WP 5.5)
 require_once ABSPATH . WPINC . '/PHPMailer/PHPMailer.php';
 require_once ABSPATH . WPINC . '/PHPMailer/SMTP.php';
