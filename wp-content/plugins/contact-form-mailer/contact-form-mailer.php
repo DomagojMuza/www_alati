@@ -258,14 +258,14 @@ class Contact_Form_Mailer {
 
 		if ( null === $sent_error ) {
 			// 9. Pošalji potvrdu posjetitelju
-			$this->send_via_phpmailer(
-				$email,
-				'Potvrda primanja Vaše poruke — ' . get_bloginfo( 'name' ),
-				$this->build_confirmation_email( $name, $surname ),
-				get_option( 'cfm_smtp_from_name', get_bloginfo( 'name' ) ),
-				'',
-				get_option( 'cfm_smtp_from_email', get_option( 'admin_email' ) )
-			);
+			// $this->send_via_phpmailer(
+			// 	$email,
+			// 	'Potvrda primanja Vaše poruke — ' . get_bloginfo( 'name' ),
+			// 	$this->build_confirmation_email( $name, $surname ),
+			// 	get_option( 'cfm_smtp_from_name', get_bloginfo( 'name' ) ),
+			// 	'',
+			// 	get_option( 'cfm_smtp_from_email', get_option( 'admin_email' ) )
+			// );
 
 			$success_msg = get_option(
 				'cfm_success_message',
