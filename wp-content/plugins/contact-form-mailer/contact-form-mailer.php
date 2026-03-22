@@ -209,9 +209,9 @@ class Contact_Form_Mailer {
 		$ip       = $this->get_client_ip();
 		$rate_key = 'cfm_rate_' . md5( $ip );
 		$count    = (int) get_transient( $rate_key );
-		if ( $count >= 5 ) {
-			wp_send_json_error( array( 'message' => 'Greška' ) );
-		}
+		// if ( $count >= 5 ) {
+		// 	wp_send_json_error( array( 'message' => 'Greška' ) );
+		// }
 
 		// 5. Sanitise inputs
 		$name    = sanitize_text_field( wp_unslash( $_POST['cfm_name']    ?? '' ) );
