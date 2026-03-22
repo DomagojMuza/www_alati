@@ -18,7 +18,7 @@ add_action( 'phpmailer_init', function( $phpmailer ) {
     $phpmailer->Port       = 465;              // TLS port
     $phpmailer->SMTPSecure = 'ssl';            // Enable TLS
     $phpmailer->Username   = 'domim1998@gmail.com';
-    $phpmailer->Password   = 'eeso uked amgf kfvo'; // NOT your Gmail password
+    $phpmailer->Password   = 'adyd olod hcap stup'; // NOT your Gmail password
     $phpmailer->From       = 'domim1998@gmail.com';
     $phpmailer->FromName   = 'Ordino Pro Service';
 });
