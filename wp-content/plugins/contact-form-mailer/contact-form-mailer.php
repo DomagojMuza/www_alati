@@ -11,18 +11,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-add_action( 'phpmailer_init', function( $phpmailer ) {
-    $phpmailer->isSMTP();
-    $phpmailer->Host       = 'smtp.gmail.com';
-    $phpmailer->SMTPAuth   = true;
-    $phpmailer->Port       = 587;              // TLS port
-    $phpmailer->SMTPSecure = 'tls';            // Enable TLS
-    $phpmailer->Username   = 'manuela052@gmail.com';
-    $phpmailer->Password   = 'hgsu vjub tlno xkym'; // NOT your Gmail password
-    $phpmailer->From       = 'manuela052@gmail.com';
-    $phpmailer->FromName   = 'Ordino Pro Service';
-});
-
 // Load PHPMailer bundled with WordPress core (available since WP 5.5)
 require_once ABSPATH . WPINC . '/PHPMailer/PHPMailer.php';
 require_once ABSPATH . WPINC . '/PHPMailer/SMTP.php';
@@ -292,7 +280,7 @@ class Contact_Form_Mailer {
 		$smtp_host       = get_option( 'cfm_smtp_host', '' );
 		$smtp_port       = (int) get_option( 'cfm_smtp_port', 587 );
 		$smtp_user       = get_option( 'cfm_smtp_username', '' );
-		$smtp_pass       = get_option( 'cfm_smtp_password', '' );
+		$smtp_pass       = defined( 'CFM_SMTP_PASSWORD' ) ? CFM_SMTP_PASSWORD : get_option( 'cfm_smtp_password', '' );
 		$smtp_enc        = get_option( 'cfm_smtp_encryption', 'tls' ); // 'tls', 'ssl', 'none'
 		$from_email      = get_option( 'cfm_smtp_from_email', get_option( 'admin_email' ) );
 		$from_name       = get_option( 'cfm_smtp_from_name', get_bloginfo( 'name' ) );
@@ -591,10 +579,14 @@ HTML;
 					<tr>
 						<th scope="row"><label for="cfm_smtp_password">SMTP Password</label></th>
 						<td>
+							<?php if ( defined( 'CFM_SMTP_PASSWORD' ) ) : ?>
+								<p class="description" style="color:#2271b1;font-weight:600;">&#10003; Password is set via the <code>CFM_SMTP_PASSWORD</code> constant in <code>wp-config.php</code>. The field below is ignored.</p>
+							<?php else : ?>
 							<input type="password" id="cfm_smtp_password" name="cfm_smtp_password" class="regular-text"
 								autocomplete="new-password"
 								value="<?php echo esc_attr( get_option( 'cfm_smtp_password', '' ) ); ?>" />
-							<p class="description">Stored in the database. For higher security consider using environment variables or a secrets plugin.</p>
+							<p class="description">Stored in the database. For higher security, define <code>CFM_SMTP_PASSWORD</code> in <code>wp-config.php</code>.</p>
+							<?php endif; ?>
 						</td>
 					</tr>
 					<tr>
