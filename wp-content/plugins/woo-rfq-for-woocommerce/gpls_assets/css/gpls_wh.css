@@ -1,0 +1,152 @@
+/*
+.single_add_to_cart_button{
+    visibility: hidden ;
+} */
+.wc-block-components-product-badge, .wc-block-components-sale-badge{
+    visibility: hidden ;
+    }
+.cart{
+
+      /* display: none !important; ; */
+    }
+/* .single_add_to_cart_button {visibility: collapse !important;}#woo_pp_ec_button_product {visibility: collapse !important;}.gpls_rfq_set{visibility: visible !important;} */
+
+
+.related .woocommerce-Price-amount >*,
+.related .from >*,
+.related .price >*,
+.related .total >*
+.related .amount >*
+.related .bundle_price >*
+
+{
+    visibility: visible !important ;
+}
+
+.related .woocommerce-Price-amount,
+.related .price,
+.related .total,
+.related .bundle_price,
+.related .amount
+{
+
+    visibility: visible !important ;
+}
+
+
+
+
+
+/*.wc-block-components-totals-item*/
+.woocommerce-Price-amount,.from, .price,.total,.amount, .bundle_price, .wc-pao-col2, .product-selector__price,.woocommerce-shipping-totals
+,.wp-block-woocommerce-cart-order-summary-subtotal-block
+,.wp-block-woocommerce-cart-order-summary-coupon-form-block
+,.wp-block-woocommerce-cart-order-summary-heading-block
+,.wp-block-woocommerce-cart-order-summary-subtotal-block
+,.wc-block-components-totals-footer-item
+    ,.wc-block-components-product-price,
+.wc-block-checkout__shipping-option--free,
+.wc-block-checkout__shipping-option--free,
+.wc-block-checkout__shipping-option,
+.wc-block-components-totals-shipping__options
+
+{
+    visibility: collapse ;
+
+}
+
+.wp-block-woocommerce-cart-order-summary-subtotal-block
+,.wp-block-woocommerce-cart-order-summary-coupon-form-block,.wp-block-woocommerce-checkout-order-summary-subtotal-block
+,.wp-block-woocommerce-checkout-order-summary-coupon-form-block
+,div.wc-block-components-totals-shipping__via
+,div > div > div > div > div > div.wc-block-components-totals-shipping > div.wc-block-components-totals-item > span
+,div.wc-block-components-totals-shipping__options > div > div > div > span
+    ,.wc-block-components-product-price,
+.wc-block-checkout__shipping-option--free,
+.wc-block-checkout__shipping-option,
+.wc-block-components-totals-shipping__options,
+
+.wc-block-checkout__shipping-option .wc-block-checkout__shipping-option--free
+
+{
+    display:none !important;
+}
+
+.wc-block-checkout__shipping-option .wc-block-checkout__shipping-option--free {
+
+    display: none !important;
+    }
+
+
+.wc-pao-col2,.wc-pao-subtotal-line, .product-selector__price {
+
+    opacity: 0  ;
+}
+
+
+.gpls_rfq_set {
+    visibility: visible   ;
+}
+
+.xcp-ctotal .amount {
+    visibility: collapse ;
+}
+.xcp-totxt,.xcp-ctotal,.xoo-cp-cart-total {
+    visibility: collapse ;
+}
+
+
+.wapf-product-totals{  visibility: collapse ;   ;}
+.wapf-pricing-hint{  visibility: collapse ;   ;}
+
+.related .woocommerce-Price-amount >*,
+.related .from >*,
+.related .price >*,
+.related .total >*
+.related .amount >*
+.related .bundle_price >*
+{
+    visibility: visible !important ;
+
+
+}
+
+.related .woocommerce-Price-amount >*,
+.related .price >*,
+.related .total >*,
+.related .bundle_price >*,
+.related .amount >*{
+    visibility: visible !important ;
+
+}
+
+.related .woocommerce-Price-amount >*,
+.related .from >*,
+.related .price >*,
+.related .total >*
+.related .amount >*
+.related .bundle_price >*
+
+{
+    visibility: visible !important ;
+
+
+    }
+
+.related .woocommerce-Price-amount,
+.related .price,
+.related .total,
+.related .bundle_price,
+.related .amount
+{
+
+    visibility: visible !important ;
+    }
+
+
+
+
+
+/*.wc-block-components-totals-item*/
+
+

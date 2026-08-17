@@ -1,0 +1,3 @@
+.cart-collaterals h2,.cart-subtotal,.order-total {
+    visibility:collapse !important;;
+}

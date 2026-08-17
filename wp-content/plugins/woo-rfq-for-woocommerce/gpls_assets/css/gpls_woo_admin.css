@@ -1,0 +1,204 @@
+.woocommerce table.form-table select {
+
+     padding: 2px !important;
+
+}
+.plus {
+     position: relative;
+     font-family: "Avenir Next", sans-serif;
+     font-weight: 900;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-style: italic;
+     letter-spacing: 0.05em;
+     /*display: inline-block;*/
+     color:#3e9b9d;
+}
+
+.hoveroverlink a {
+
+     box-shadow: inset 0 0 0 0 #0961db;
+     color: #0961db;
+     margin: 0 -.25rem;
+     padding: 0 .25rem;
+     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+     font-weight: 490;
+
+}
+.hoveroverlink a:hover {
+     box-shadow: inset 200px 0 0 0 #0961db;
+     color: white;
+
+}
+.plus_options {
+     -webkit-box-shadow: 19px 18px 15px -7px #000000;
+     box-shadow: 19px 18px 15px -7px #000000;
+     font-family: "Avenir Next", sans-serif;
+     font-weight: 900;
+     letter-spacing: 0.05em;
+     display: inline;
+     background:white;
+     width:60%;
+     height: auto;
+     float:left;
+
+     /*overflow-y: scroll;*/
+}
+.plus_narrow {
+     -webkit-box-shadow: 19px 18px 15px -7px #000000;
+     box-shadow: 19px 18px 15px -7px #000000;
+     font-family: "Avenir Next", sans-serif;
+     font-weight: 900;
+     letter-spacing: 0.05em;
+     /*display: inline;*/
+     background:white;
+     width:35%;
+     height: auto;
+     float:right;
+
+     /*overflow-y: scroll;*/
+}
+a.get_plus {
+     background-color: #4da539;
+     box-shadow: 0 5px 0 #710101;
+     color: red;
+     padding: 1em 1.5em;
+     position: relative;
+     text-decoration:  none;
+     text-transform: uppercase;
+}
+
+a.get_plus:hover {
+     background-color: #B9EEACFF;
+     color:black;
+}
+
+a.get_plus:active {
+     box-shadow: none;
+     top: 5px;
+}
+
+
+
+.plus_options-header {
+     font-weight: 900;
+
+     color:#0A73B0;
+     font-size: 1.2em !important;
+}
+.plus_options_ul {
+     display:  flex;
+     flex-wrap: wrap;
+
+
+
+}
+.plus_options_li {
+     padding: 0 10px 0 15px;
+     font-size: 1.0em !important;
+}
+
+.plus_large{
+     display:block !important;
+}
+.plus_small{
+     display:none !important;
+}
+
+
+.bulletpoint{
+     color:#0A73B0;
+     font-size: 1.5em;
+     font-weight: bold;
+}
+
+.plus_narrow{
+     background:white;  max-width: 35% !important;min-width: 35% !important
+}
+
+.clear_narrow{
+     clear: none !important;
+     visibility: collapse;
+}
+
+
+
+
+.product_meta_hr {
+     display: block;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: inset;
+     color: black;
+     border-width: 2px;
+}
+
+.sconly {
+     color: #007cba;
+
+     cursor:pointer;
+
+     text-decoration:none;
+
+     }
+.sconly_noborder{
+     color: #007cba;
+
+     cursor:pointer;
+
+     text-decoration:none;
+     }
+.gpls_trig, .gpls_permissions{
+     display:inline;
+     }
+.gplshover{
+     display:inline-block;
+     }
+
+.gpls_element {
+     /* display:none; */
+     max-width:550px
+     }
+
+.settings_gpls_woo_rfq_revert_to_classic{
+     display:inline;
+     border-radius: 10px;
+     padding:10px;
+
+     }
+
+.settings_gpls_woo_rfq_revert_to_classic_revert{
+
+     border-radius: 10px;
+     padding:10px;
+     margin:10px;
+
+     border-style:solid;
+     border-color:black;
+     }
+.gplsclassic{
+     /* display: none; */
+     }
+
+
+
+@media screen and (max-width: 780px) {
+
+
+     .plus_large{
+          display:none !important;
+          }
+     .plus_small{
+          display:block !important;
+          }
+     .plus_narrow{
+          display:block !important;background:white; ; max-width: 70% !important;min-width: 70% !important;
+          }
+     .clear_narrow{
+          clear:both!important;
+          display: block !important;;
+          }
+
+     }

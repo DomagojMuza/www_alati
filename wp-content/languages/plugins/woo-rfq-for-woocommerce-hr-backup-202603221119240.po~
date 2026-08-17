@@ -1,0 +1,607 @@
+# Translation of Plugins - NP Quote Request for WooCommerce - Stable (latest release) in Croatian
+# This file is distributed under the same license as the Plugins - NP Quote Request for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-18 07:53:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: hr\n"
+"Project-Id-Version: Plugins - NP Quote Request for WooCommerce - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: woo-rfq-for-woocommerce.php
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:33
+msgid "NP Quote Request for WooCommerce"
+msgstr "NP Quote Request WooCommerce"
+
+#: woocommerce/emails/customer-note.php:57
+#: woocommerce/emails/plain/customer-note.php:57
+msgid "here"
+msgstr "ovdje"
+
+#. translators: %s: link
+#: woocommerce/emails/customer-note.php:56
+#: woocommerce/emails/plain/customer-note.php:56
+msgid "You can respond by clicking %s"
+msgstr "Možete odgovoriti klikom na %s"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:508
+msgid "Always Show Product Prices With RFQ Checkout"
+msgstr "Uvijek prikaži cijene proizvoda s RFQ Checkout"
+
+#: woocommerce/woo-rfq/rfq-cart.php:594
+msgid "Your message to us"
+msgstr "Vaša poruka za nas"
+
+#: woocommerce/woo-rfq/rfq-cart.php:489
+msgid "State/County"
+msgstr "Država/Županija"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:743
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1313
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1330
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1347
+msgid "Select options"
+msgstr "Odaberi opcije"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:740
+msgid "Select Options"
+msgstr "Odaberi opcije"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:841
+msgid "Request for Quote Page URL"
+msgstr "Zatraži Ponudu stranica URL"
+
+#: includes/classes/emails/class-wc-email-rfq.php:76
+msgid "Note"
+msgstr "Napomena"
+
+#: woocommerce/woo-rfq/rfq-cart.php:390
+msgid "Required"
+msgstr "Obavezno"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:481
+msgid "RFQ-ToolKit general options "
+msgstr "RFQ-ToolKit opće opcije"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:479
+msgid "RFQ-ToolKit General Options"
+msgstr "RFQ-ToolKit Opće opcije"
+
+#: includes/classes/gpls_woo_rfq_functions.php:1673
+msgid "Invalid phone number."
+msgstr "Nevažeći telefonski broj."
+
+#: includes/classes/gpls_woo_rfq_functions.php:1663
+msgid "Invalid email address."
+msgstr "Nevažeća email adresa."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:724
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:727
+#: woocommerce/woo-rfq/rfq-cart.php:288
+msgid "Customer Information"
+msgstr "Informacije korisnika"
+
+#: includes/classes/gpls_woo_rfq_functions.php:207
+msgid "View cart"
+msgstr "Vidi košaricu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:667
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:670
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1826
+#: includes/classes/gpls_woo_rfq_functions.php:843
+#: includes/classes/gpls_woo_rfq_functions.php:3390
+#: woocommerce/woo-rfq/link-to-cart-pages.php:9
+#: woocommerce/woo-rfq/link-to-cart-shop.php:8
+#: woocommerce/woo-rfq/link-to-cart.php:8
+msgid "View List"
+msgstr "Vidi popis"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:694
+msgid "Choose the text for \"Added to Quote List\""
+msgstr "Odaberite tekst za \"Dodano u Popis Zahtjeva\""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:649
+msgid "RFQ Checkout- Choose the text for \"Proceed To Submit Your Quote\""
+msgstr "RFQ Naplata- Odaberite tekst za \"Nastavite da pošaljete Zahtjev za ponudu\""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:647
+msgid "RFQ Checkout- Proceed To Submit Your Quote Label"
+msgstr "RFQ Naplata- Oznaka za Nastavite da pošaljete Zahtjev za ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:640
+msgid "Normal Checkout Only. Choose the text for \"Already In Quote Request\""
+msgstr "Normalna Naplata samo. Odaberite tekst za \"Već je u zahtjevu za ponudu\""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:631
+msgid "Normal Checkout Only. Choose the text for \"Request Quote\""
+msgstr "Normalna Naplata samo. Odaberite tekst za \"Zatraži ponudu\""
+
+#: woocommerce/woo-rfq/rfq-cart.php:588
+msgid "Customer Note"
+msgstr "Napomena kupca"
+
+#: woocommerce/emails/customer-note.php:63
+#: woocommerce/emails/plain/customer-note.php:63
+msgid "For your reference, your order details are shown below."
+msgstr "Za vašu informaciju, detalji narudžbe prikazani su ispod."
+
+#: woocommerce/emails/customer-note.php:39
+#: woocommerce/emails/plain/customer-note.php:39
+msgid "Hello, a note has just been added to your order:"
+msgstr "Pozdrav, u vašu je narudžbu upravo dodana napomena:"
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:28
+msgid "RFQ-ToolKit New RFQ Admin"
+msgstr "RFQ-ToolKit Novi RFQ Admin"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:30
+msgid "RFQ-ToolKit New Request for Quote"
+msgstr "RFQ-ToolKit Novi Zahtjev za ponudu"
+
+#: includes/classes/gpls_woo_rfq_functions.php:1651
+msgid "Please enter first name, last name and a valid email"
+msgstr "Unesite ime, prezime i valjanu email adersu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:732
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:735
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1075
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1097
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1126
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1377
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2271
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2324
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2377
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2653
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2676
+msgid "Read more"
+msgstr "Pročitaj više"
+
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1167
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1282
+msgid "In Quote List"
+msgstr "Na popisu ponuda"
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:136
+msgid "required"
+msgstr "obavezno"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:765
+msgid "Manage links to \"Request Quote Page\" - (normal checkout)"
+msgstr "Upravljanje poveznicama na \"Zatraži Ponudu\" stranicu - (normalna naplata)"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:605
+msgid "Manage labels and wordings"
+msgstr "Upravljanje oznakama i natpisima"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:101
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:110
+msgid "Links"
+msgstr "Poveznice"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:99
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:108
+msgid "General"
+msgstr "Općenito"
+
+#: includes/classes/admin/metaboxes/gpls_woo_rfq_product_meta.php:41
+msgid "Enable quote requests for this product."
+msgstr "Omogući zatraži ponudu za ovaj proizvod."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:638
+msgid "Add To Quote Request Again Label"
+msgstr "Oznaka za Dodaj u Zatraži Ponudu ponovo"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:622
+msgid "Choose the text for \"Already in the Cart\"- (Change to Add To Quote in RFQ Checkout) "
+msgstr "Odaberite tekst za \"Već je u košarici\" - (Promijeni u Dodaj u Zatraži Ponudu u RFQ naplati)"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:613
+msgid "Choose the text for \"Add to Cart\" - (Change to Add To Quote in RFQ Checkout)"
+msgstr "Odaberite tekst za \"Dodaj u košaricu\" - (Promijeni u Dodaj u Zatraži Ponudu u RFQ naplati)"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:716
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:719
+#: includes/classes/gpls_woo_rfq_functions.php:141
+#: includes/classes/gpls_woo_rfq_functions.php:923
+#: woocommerce/woo-rfq/rfq-cart.php:235
+msgid "Update Quote Request"
+msgstr "Ažuriraj Zatraži Ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:711
+#: woocommerce/woo-rfq/rfq-cart-empty.php:22
+msgid "Your Quote Request List is Currently Empty."
+msgstr "Vaš popis Zatraži Ponudu je trenutno prazan."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:708
+msgid "Your Quote Request List Is Currently Empty"
+msgstr "Vaš popis Zatraži Ponudu je trenutno prazan"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:700
+msgid "Your Request Has Been Submitted"
+msgstr "Vaš zahtjev je poslan"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:695
+msgid "Product was successfully added to quote request."
+msgstr "Proizvod je uspješno dodan u Zatraži Ponudu."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:692
+msgid "Product Was Added To The Quote Request"
+msgstr "Proizvod je dodan u Zatraži Ponudu."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:686
+msgid "Choose the text for \"Return To Shop In Quote Request Page\""
+msgstr "Odaberite tekst za \"Povratak u trgovinu na Zatraži Ponudu stranici\""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:684
+msgid "Return To Shop In Quote Request Page"
+msgstr "Povratak u trgovinu na Zatraži Ponudu stranici"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:679
+msgid "You quote request list is empty and was not submitted"
+msgstr "Vaš popis zahtjeva za ponudu je prazan i nije poslan"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:676
+msgid "Quote Request List Is Empty Label"
+msgstr "Oznaka za Popis zahtjeva za ponudu je prazan"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:629
+msgid "Add To Quote Request Label"
+msgstr "Oznaka za Dodaj u Zatraži Ponudu"
+
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2538
+msgid "Add to Quote"
+msgstr "Dodaj u Zatraži Ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:632
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:641
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1173
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1288
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1812
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1817
+msgid "Add To Quote"
+msgstr "Dodaj u Zatraži Ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:776
+msgid "Show Link To Quote Request Page At The Bottom of the Product Archives Page"
+msgstr "Prikaži poveznicu na Zatraži Ponudu stranicu na dnu stranice arhive proizvoda"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:769
+msgid "Show Link To Quote Request Page At The Top of the Product Archives Page"
+msgstr "Prikaži poveznicu na Zatraži Ponudu stranicu na vrhu stranice arhive proizvoda"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:102
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:111
+msgid "Quote Request Page"
+msgstr "Stranica Zatraži Ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:800
+msgid "Show Link To Quote Request Page in the Thank you page"
+msgstr "Prikaži poveznicu na Zatraži Ponudu stranicu na stranici zahvale"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:650
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:660
+msgid "Proceed To Submit Your Quote"
+msgstr "Nastavi na pošalji Zahtjev za ponudu"
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:154
+msgid "Update country"
+msgstr "Ažuriraj zemlju"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:22
+#: woo-rfq-for-woocommerce.php:668 woo-rfq-for-woocommerce.php:764
+#: assets/js/frontend/blocks.js:1 resources/js/frontend/index.js:18
+msgid "Quote Request"
+msgstr "Zatraži Ponudu"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:72
+msgid "Request For Quote"
+msgstr "Zatraži Ponudu"
+
+#: woocommerce/woo-rfq/rfq-cart.php:518
+msgid "Address 2"
+msgstr "Adresa 2"
+
+#: woocommerce/woo-rfq/rfq-cart.php:358 woocommerce/woo-rfq/rfq-cart.php:365
+msgid "Company"
+msgstr "Poduzeće"
+
+#: includes/classes/gpls_woo_rfq_functions.php:845
+msgid "You have items in your Request for Quote Cart"
+msgstr "Vi imate stavke u vašoj Zatraži Ponudu košarici"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:540
+msgid "Hide Prices from Visitors"
+msgstr "Sakrij cijene od posjetitelja"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:516
+msgid "Show Prices With Normal Checkout"
+msgstr "Prikaži cijene s normalnom naplatom"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:492
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:147
+#: woo-rfq-includes/woo-rfq-functions.php:327
+msgid "RFQ"
+msgstr "RFQ"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:491
+msgid "Normal Checkout"
+msgstr "Normalna Naplata"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:488
+msgid "Checkout Option"
+msgstr "Opcija naplate"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:100
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:109
+msgid "Labels"
+msgstr "Oznake"
+
+#: includes/classes/admin/metaboxes/gpls_woo_rfq_product_meta.php:37
+msgid "Enable RFQ for this product."
+msgstr "Omogući RFQ za ovaj proizvod."
+
+#: woocommerce/emails/email-order-items.php:50
+#: woocommerce/emails/plain/email-order-items.php:50
+#: woocommerce/emails/plain/rfqtk-email-order-items.php:50
+#: woocommerce/emails/rfqtk-email-order-items.php:50
+msgid "Product image"
+msgstr "Slika proizvoda"
+
+#: woocommerce/emails/customer-rfq.php:40
+#: woocommerce/emails/plain/customer-rfq.php:40
+msgid "Your request has been received and is now being reviewed. Your request details are shown below for your reference:"
+msgstr "Vaš zahtjev je zaprimljen i sada se pregledava. Pojedinosti o vašem zahtjevu prikazane su u nastavku za vašu referencu:"
+
+#: woocommerce/emails/admin-new-rfq.php:47
+#: woocommerce/emails/customer-note.php:76
+#: woocommerce/emails/customer-rfq.php:55
+#: woocommerce/emails/plain/admin-new-rfq.php:47
+#: woocommerce/emails/plain/customer-note.php:76
+#: woocommerce/emails/plain/customer-rfq.php:55
+#: woocommerce/woo-rfq/fav-cart.php:117 woocommerce/woo-rfq/fav-cart.php:212
+msgid "Price"
+msgstr "Cijena"
+
+#: woocommerce/emails/admin-new-rfq.php:45
+#: woocommerce/emails/customer-note.php:73
+#: woocommerce/emails/customer-rfq.php:52
+#: woocommerce/emails/plain/admin-new-rfq.php:45
+#: woocommerce/emails/plain/customer-note.php:73
+#: woocommerce/emails/plain/customer-rfq.php:52
+#: woocommerce/woo-rfq/rfq-cart.php:92 woocommerce/woo-rfq/rfq-cart.php:178
+msgid "Quantity"
+msgstr "Količina"
+
+#: woocommerce/emails/admin-new-rfq.php:43
+#: woocommerce/emails/customer-note.php:71
+#: woocommerce/emails/customer-rfq.php:51
+#: woocommerce/emails/plain/admin-new-rfq.php:43
+#: woocommerce/emails/plain/customer-note.php:71
+#: woocommerce/emails/plain/customer-rfq.php:51
+#: woocommerce/woo-rfq/fav-cart.php:116 woocommerce/woo-rfq/fav-cart.php:187
+#: woocommerce/woo-rfq/rfq-cart.php:91 woocommerce/woo-rfq/rfq-cart.php:153
+msgid "Product"
+msgstr "Proizvod"
+
+#. translators: %s: number
+#: woocommerce/emails/admin-new-rfq.php:34
+#: woocommerce/emails/customer-note.php:64
+#: woocommerce/emails/customer-rfq.php:45
+#: woocommerce/emails/plain/admin-new-rfq.php:34
+#: woocommerce/emails/plain/customer-note.php:64
+#: woocommerce/emails/plain/customer-rfq.php:45
+msgid "Order #%s"
+msgstr "Narudžba #%s"
+
+#. translators: %s: customer
+#: woocommerce/emails/admin-new-rfq.php:27
+#: woocommerce/emails/plain/admin-new-rfq.php:27
+msgid "You have received an request for a quote from %s. The request is as follows:"
+msgstr "Primili ste zahtjev za ponudu od %s. Zahtjev je sljedeći:"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:85
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr "Upute koje će se dodati na stranicu zahvale i email poruke."
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:83
+msgid "Instructions"
+msgstr "Upute"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:78
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Opis načina plaćanja kojeg će kupac vidjeti na vašoj blagajni."
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:76
+msgid "Description"
+msgstr "Opis"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:71
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ovo kontrolira naslov kojeg korisnik vidi tijekom naplate."
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:69
+msgid "Title"
+msgstr "Naslov"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:65
+msgid "Skip Payment For Quote Requests"
+msgstr "Preskoči plaćanje za Zahtjeve za ponudu"
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:23
+msgid "Allows RFQ to go through."
+msgstr "Omogućava da RFQ prođe kroz."
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:262
+#: includes/classes/emails/class-wc-email-new-rfq.php:243
+msgid "Choose which format of email to send."
+msgstr "Odaberite email format za slanje."
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:260
+#: includes/classes/emails/class-wc-email-new-rfq.php:241
+msgid "Email type"
+msgstr "Vrsta email poruke"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:222
+#: includes/classes/emails/class-wc-email-new-rfq.php:216
+msgid "Subject"
+msgstr "Predmet"
+
+#. translators: recipients .
+#: includes/classes/emails/class-wc-email-new-rfq.php:211
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Unesite primatelje (odvojene zarezom) za ovaj email. Zadano je <code>%s</code>."
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:208
+msgid "Recipient(s)"
+msgstr "Primatelj(i)"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:216
+#: includes/classes/emails/class-wc-email-new-rfq.php:204
+msgid "Enable this email notification"
+msgstr "Omogući ovo email obavještavanje"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:214
+#: includes/classes/emails/class-wc-email-new-rfq.php:202
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:63
+msgid "Enable/Disable"
+msgstr "Omogući/Onemogući"
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:74
+msgid "New customer quote request"
+msgstr "Novi zahtjev za ponudu"
+
+#. translators: description .
+#: includes/classes/emails/class-wc-email-new-rfq.php:30
+msgid "New quote request emails are sent to the recipient list when an order is received."
+msgstr "Nove email poruke sa zahtjevom za ponudu su poslane na popis primatelja kada je narudžba zaprimljena."
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:67
+msgid "Your {site_title} quote request confirmation from {order_date}"
+msgstr "Vaša potvrda od {site_title} zahtjeva za ponudu od {order_date}"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:78
+msgid "Thank you for your quote request"
+msgstr "Zahvaljujemo na zahtjevu za ponudu"
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:31
+msgid "This is an quote request notification sent to customers containing their order details after quote request."
+msgstr "Ovo je obavijest o zahtjevu za ponudu poslana kupcima koja sadrži njihove podatke naručivanja nakon zahtjeva za ponudu."
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:792
+msgid "Show Link To Quote Request Page in the Single Product Description"
+msgstr "Prikaži poveznicu na stranicu Zatraži ponudu u opisu pojedinačnog proizvoda"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:763
+msgid "Show links to Quote Request Page"
+msgstr "Prikaži poveznicu na stranicu Zatraži ponudu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:687
+#: woocommerce/woo-rfq/rfq-cart-empty.php:35
+#: woocommerce/woo-rfq/rfq-cart-favs-empty.php:35
+msgid "Return To Shop"
+msgstr "Povratak u trgovinu"
+
+#: includes/classes/gpls_woo_rfq_functions.php:1326
+#: includes/classes/gpls_woo_rfq_functions.php:1360
+#: includes/classes/gpls_woo_rfq_functions.php:1699
+#: includes/classes/gpls_woo_rfq_functions.php:1735
+msgid "You RFQ cart is empty and was not submitted"
+msgstr "Vaša RFQ košarica je prazna i nije podnesena"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:678
+msgid "Choose the text for \"You Quote cart is empty and was not submitted\""
+msgstr "Odaberite tekst za \"Vaša RFQ košarica je prazna i nije podnesena\""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:669
+msgid "Choose the text for \"View Your Quote Cart\""
+msgstr "Odaberite tekst za \"Vidi košaricu sa zahtjevima\""
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:317
+#: woo-rfq-includes/woo-rfq-functions.php:1812
+msgid "Submit Your Request For Quote"
+msgstr "Pošalji zahtjev za ponudu"
+
+#: woo-rfq-includes/woo-rfq-functions.php:1823
+#: woocommerce/cart/proceed-to-checkout-button.php:56
+msgid "Proceed To Submit Your RFQ"
+msgstr "Nastavite da pošaljete RFQ"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:65
+msgid "Proceed to checkout"
+msgstr "Nastavite na blagajnu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:620
+msgid "Add To Cart Again Label"
+msgstr "Oznaka Dodaj u košaricu ponovo"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:614
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:623
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2541
+msgid "Add to Cart"
+msgstr "Dodaj u košaricu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:611
+msgid "Add To Cart Label"
+msgstr "Oznaka Dodaj u košaricu"
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:603
+msgid "Custom Labels"
+msgstr "Prilagođene oznake"
+
+#: woocommerce/woo-rfq/rfq-cart.php:328 woocommerce/woo-rfq/rfq-cart.php:335
+msgid "Email"
+msgstr "Email"
+
+#. Author URI of the plugin
+#: woo-rfq-for-woocommerce.php
+msgid "https://www.neahplugins.com/"
+msgstr "https://www.neahplugins.com/"
+
+#. Author of the plugin
+#: woo-rfq-for-woocommerce.php
+msgid "Neah Plugins"
+msgstr "Neah Plugins"
+
+#: woocommerce/woo-rfq/rfq-cart.php:556 woocommerce/woo-rfq/rfq-cart.php:561
+msgid "Zip"
+msgstr "Poštanski broj"
+
+#: woocommerce/woo-rfq/rfq-cart.php:416 woocommerce/woo-rfq/rfq-cart.php:425
+msgid "State"
+msgstr "Država"
+
+#: woocommerce/woo-rfq/rfq-cart.php:537 woocommerce/woo-rfq/rfq-cart.php:545
+msgid "City"
+msgstr "Grad"
+
+#: woocommerce/woo-rfq/rfq-cart.php:501 woocommerce/woo-rfq/rfq-cart.php:506
+msgid "Address"
+msgstr "Adresa"
+
+#: woocommerce/woo-rfq/rfq-cart.php:376 woocommerce/woo-rfq/rfq-cart.php:382
+msgid "Country"
+msgstr "Zemlja"
+
+#: woocommerce/woo-rfq/rfq-cart.php:342 woocommerce/woo-rfq/rfq-cart.php:347
+msgid "Phone"
+msgstr "Telefon"
+
+#: woocommerce/woo-rfq/rfq-cart.php:316 woocommerce/woo-rfq/rfq-cart.php:323
+msgid "Last Name"
+msgstr "Prezime"
+
+#: woocommerce/woo-rfq/rfq-cart.php:305 woocommerce/woo-rfq/rfq-cart.php:312
+msgid "First Name"
+msgstr "Ime"
+
+#: woocommerce/woo-rfq/fav-cart.php:205 woocommerce/woo-rfq/rfq-cart.php:171
+msgid "Available on backorder"
+msgstr "Dostupno za predbilježbu"
+
+#: woocommerce/woo-rfq/fav-cart.php:163 woocommerce/woo-rfq/rfq-cart.php:129
+msgid "Remove this item"
+msgstr "Ukloni ovu stavku"

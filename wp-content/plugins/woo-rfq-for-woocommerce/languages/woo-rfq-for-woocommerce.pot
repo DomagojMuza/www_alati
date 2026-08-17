@@ -1,0 +1,1342 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RFQ-ToolKit for WooCommerce\n"
+"POT-Creation-Date: 2025-09-23 12:34-0400\n"
+"PO-Revision-Date: 2016-11-16 11:45-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woo-rfq-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/classes/admin/metaboxes/gpls_woo_rfq_product_meta.php:37
+msgid "Enable RFQ for this product."
+msgstr ""
+
+#: includes/classes/admin/metaboxes/gpls_woo_rfq_product_meta.php:41
+msgid "Enable quote requests for this product."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:33
+msgid "NP Quote Request for WooCommerce"
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:43
+msgid ""
+"The following is a suggested policy text. Please consult legal professional and "
+"modify for your use case as needed.\n"
+"                      ."
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:45
+msgid "While visiting our site, we collect information so we can:"
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:49
+msgid "Process your quote request."
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:50
+msgid "Email you with a quote regarding your quote request."
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:52
+msgid ""
+"We also use cookies to keep track of your quote request while you’re browsing "
+"our site."
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:54
+msgid ""
+"Our team have access to the information you provide while submitting your quote "
+"request to offer you the best quote."
+msgstr ""
+
+#: includes/classes/admin/privacy/gpls_woo_rfq_privacy.php:56
+msgid ""
+"Such information include Quote request details such as products added, custom "
+"fields, date, name, address and email."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:84
+msgid ""
+"<br />Cart and Checkout pages have been reverted to classic cart and checkout "
+"using shortcodes.<br /><br />\n"
+"              "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:99
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:108
+msgid "General"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:100
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:109
+msgid "Labels"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:101
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:110
+msgid "Links"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:102
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:111
+msgid "Quote Request Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:103
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:112
+msgid "Quote Button"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:104
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:113
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1004
+msgid "Favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:114
+msgid "Email & Proposal"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:123
+msgid "More Options"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:182
+msgid "Available in the Plus Version:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:188
+#: woo-rfq-includes/woo-rfq-functions.php:992
+msgid "Buy or request a quote at woocommerce checkout"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:189
+#: woo-rfq-includes/woo-rfq-functions.php:993
+msgid "Allow the choice to purchase or request a quote at WooCommerce checkout."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:196
+#: woo-rfq-includes/woo-rfq-functions.php:1000
+msgid "Buy or request a quote based on items in the cart"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:196
+#: woo-rfq-includes/woo-rfq-functions.php:1000
+msgid ""
+"If the cart contains a \"quote item\", then customer can only request a quote."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:202
+#: woo-rfq-includes/woo-rfq-functions.php:1006
+msgid ""
+"Enable role based price visibility and checkout options at WooCommerce checkout:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:210
+#: woo-rfq-includes/woo-rfq-functions.php:1014
+msgid "Bulk action for stores with large number of products:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:212
+#: woo-rfq-includes/woo-rfq-functions.php:1016
+msgid ""
+"Bulk enable/disable quote items, \"Hide Add to Cart\", \"Hide Price\"  by "
+"category."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:220
+msgid "Use Google ReCAPTCHA for quote request:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:226
+#: woo-rfq-includes/woo-rfq-functions.php:1030
+msgid ""
+"Allow visitors to pay for an order without having to log on first (guest pay)."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:232
+#: woo-rfq-includes/woo-rfq-functions.php:1036
+msgid "Enable price visibility by IP address."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:239
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:314
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:398
+#: woo-rfq-includes/woo-rfq-functions.php:1043
+msgid "And more!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:250
+msgid "Get Quote Request Plus For WooCommerce!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:286
+msgid "Available in the Cart & Quote to PDF For WooCommerce :"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:293
+msgid "PDF Attachments"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:293
+msgid "Include a PDF version of the quote to in the quote email"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:300
+msgid "WooCommerce cart to Quote"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:300
+msgid "Export the cart to a PDF download and optionally create a quote request."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:307
+msgid "Include a custom form with the WooCommerce cart to Quote:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:307
+msgid "Collect needed information to prepare a quote for the customer."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:325
+msgid "Try cart & quote to PDF for free!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:362
+msgid "Available in File Upload Add-on:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:368
+msgid "File Uploads:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:369
+msgid ""
+"Allow your customers to upload documents that are linked to quote requests or "
+"orders."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:376
+msgid "Google ReCAPTCHA:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:376
+msgid "Optionally enable Google ReCAPTCHA for file uploads."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:383
+msgid "Allow upload in multiple places:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:384
+msgid ""
+"Quote Request page, checkout page, my accounts page, thank you page or at "
+"product level."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:390
+msgid "Centralized File Repository:"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:391
+msgid "File repository to view and manage the uploaded files."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:409
+msgid "GET File Upload For WooCommerce!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:479
+msgid "RFQ-ToolKit General Options"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:481
+msgid "RFQ-ToolKit general options "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:488
+msgid "Checkout Option"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:491
+msgid "Normal Checkout"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:492
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:147
+#: woo-rfq-includes/woo-rfq-functions.php:327
+msgid "RFQ"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:493
+msgid ""
+"RFQ turns WooCommerce shopping cart into a request for quote.<br /> \n"
+"         In premium version there are additional options to buy or request the "
+"whole cart as a quote at WooCommerce checkout.<br />\n"
+"          RFQ option provides very high compatibility with other third party "
+"plugins and products.<br />\n"
+"           Normal option allows checking out normally or request a quote using a "
+"quote cart."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:497
+msgid ""
+"Normal Checkout: If normal checkout, prices will be shown except for selected "
+"products<br />\n"
+" (managed in product setup-advanced tab). \n"
+" Customers can only inquire about the products that you specify in product setup "
+"in the advanced tab or in the products list in admin. \n"
+"<br><br>RFQ Checkout: In RFQ mode the plugin is integrated with the WooCommerce "
+"cart and<br />\n"
+" the entire cart is submitted as a quote request. All the prices are hidden and "
+"at checkout the option is to submit a quote request. <br /><br /> \n"
+"  "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:508
+msgid "Always Show Product Prices With RFQ Checkout"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:510
+msgid ""
+"Applicable to RFQ checkout option only.<br /> Prices are shown for products but "
+"checkout is still a request for quote. Premium version show prices in the email "
+"and thank you page also."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:516
+msgid "Show Prices With Normal Checkout"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:518
+msgid ""
+"Applicable to normal checkout option only.<br /> Prices are shown on the site "
+"but customer can inquire or checkout with selected products.< br />\n"
+"                            This allows customers to checkout using the "
+"published prices or to request a personalized quote.  Premium version show "
+"prices in the email and thank you page also"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:524
+msgid "Allow quote items when they are out of stock"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:526
+msgid "<br />Allow quote items when they are out of stock"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:531
+msgid "sold-out Message"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:540
+msgid "Hide Prices from Visitors"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:542
+msgid ""
+"Hide Prices From Visitor. Visitors who are not logged in can only submit a "
+"quotes request. <br />Enable guest checkout so the customers can submit requests "
+"as guest"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:557
+msgid ""
+"Allow checkout without payment at WooCommerce checkout. DOES NOT CREATE A QUOTE "
+"REQUEST"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:559
+msgid ""
+"No Payment Checkout: Customer can complete an order at checkout without payment."
+"<br />\n"
+"   Admin can then optionally covert the order to a quote request and email the "
+"customer.<br />\n"
+"  If this option is selected, Customer can checkout without payment.<br />\n"
+"   The order status is pending and admin receives a new order notification<br /> "
+"about a new order with \"no payment\" in the subject and heading of order "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:567
+msgid "No payment message"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:572
+msgid "No Payment"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:603
+msgid "Custom Labels"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:605
+msgid "Manage labels and wordings"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:611
+msgid "Add To Cart Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:613
+msgid ""
+"Choose the text for \"Add to Cart\" - (Change to Add To Quote in RFQ Checkout)"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:614
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:623
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2541
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:620
+msgid "Add To Cart Again Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:622
+msgid ""
+"Choose the text for \"Already in the Cart\"- (Change to Add To Quote in RFQ "
+"Checkout) "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:629
+msgid "Add To Quote Request Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:631
+msgid "Normal Checkout Only. Choose the text for \"Request Quote\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:632
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:641
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1173
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1288
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1812
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1817
+msgid "Add To Quote"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:638
+msgid "Add To Quote Request Again Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:640
+msgid "Normal Checkout Only. Choose the text for \"Already In Quote Request\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:647
+msgid "RFQ Checkout- Proceed To Submit Your Quote Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:649
+msgid "RFQ Checkout- Choose the text for \"Proceed To Submit Your Quote\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:650
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:660
+msgid "Proceed To Submit Your Quote"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:657
+msgid "Normal & RFQ Checkout - Submit Your Quote Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:659
+msgid ""
+"Normal & RFQ Checkout- Choose the text for \"Submit Your Request For Quote\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:667
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:670
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1826
+#: includes/classes/gpls_woo_rfq_functions.php:843
+#: includes/classes/gpls_woo_rfq_functions.php:3390
+#: woocommerce/woo-rfq/link-to-cart-pages.php:9
+#: woocommerce/woo-rfq/link-to-cart-shop.php:8
+#: woocommerce/woo-rfq/link-to-cart.php:8
+msgid "View List"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:669
+msgid "Choose the text for \"View Your Quote Cart\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:676
+msgid "Quote Request List Is Empty Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:678
+msgid "Choose the text for \"You Quote cart is empty and was not submitted\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:679
+msgid "You quote request list is empty and was not submitted"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:684
+msgid "Return To Shop In Quote Request Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:686
+msgid "Choose the text for \"Return To Shop In Quote Request Page\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:687
+#: woocommerce/woo-rfq/rfq-cart-empty.php:35
+#: woocommerce/woo-rfq/rfq-cart-favs-empty.php:35
+msgid "Return To Shop"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:692
+msgid "Product Was Added To The Quote Request"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:694
+msgid "Choose the text for \"Added to Quote List\""
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:695
+msgid "Product was successfully added to quote request."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:700
+msgid "Your Request Has Been Submitted"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:702
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:287
+#: includes/classes/gpls_woo_rfq_functions.php:1553
+msgid "Your quote request has been successfully submitted!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:703
+msgid "Your request has been successfully submitted!"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:708
+msgid "Your Quote Request List Is Currently Empty"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:711
+#: woocommerce/woo-rfq/rfq-cart-empty.php:22
+msgid "Your Quote Request List is Currently Empty."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:716
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:719
+#: includes/classes/gpls_woo_rfq_functions.php:141
+#: includes/classes/gpls_woo_rfq_functions.php:923
+#: woocommerce/woo-rfq/rfq-cart.php:234
+msgid "Update Quote Request"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:724
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:727
+#: woocommerce/woo-rfq/rfq-cart.php:287
+msgid "Customer Information"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:732
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:735
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1075
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1097
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1126
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1377
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2271
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2324
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2377
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2645
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2668
+msgid "Read more"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:740
+msgid "Select Options"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:743
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1313
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1330
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1347
+msgid "Select options"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:763
+msgid "Show links to Quote Request Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:765
+msgid "Manage links to \"Request Quote Page\" - (normal checkout)"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:769
+msgid "Show Link To Quote Request Page At The Top of the Product Archives Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:776
+msgid "Show Link To Quote Request Page At The Bottom of the Product Archives Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:783
+msgid "Show Link To Quote Request Page in WooCommerce Cart Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:785
+msgid "Link at bottom of WooCommerce Cart Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:792
+msgid "Show Link To Quote Request Page in the Single Product Description"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:800
+msgid "Show Link To Quote Request Page in the Thank you page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:820
+msgid "Default Request for Quote Page: Applicable In Normal Checkout Mode"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:822
+msgid ""
+"<p>In the Normal Checkout mode, a default page called <i>Quote Request</i> is "
+"created to view the quote list. This page\n"
+"                                            is only needed if in the Normal "
+"Checkout mode. (In RFQ mode, the WooCommerce cart\n"
+"                                           is used to display the items "
+"requested for quote.)</p>\n"
+"                                           <p><b>Exclude this page from page "
+"caching. \n"
+"                                           You can read more <a href=\"https://"
+"neahplugins.com/how-to-make-the-np-quote-plugin-work-with-page-caching/\" target="
+"\"_blank\" >How to make the NP Quote Plugin work with page caching plugins</a> </"
+"b></p>\n"
+"                                           </b> You can modify the <i>Quote "
+"Request</i> page by modifying the \"rfq-cart.php\"\n"
+"                                            template in \"plugins/woo-rfq-for-"
+"woocommerce/woocommerce/woo-rfq/rfq-cart.php\".\n"
+"                                           Create the \"woo-rfq\" folder under "
+"\"your_child_theme/woocommerce\" and  Copy the \"rfq-cart.php\" file to the "
+"\"woo-rfq\" folder \n"
+"                                           under the WooCommerce directory in "
+"your child theme directory and modify it. \n"
+"                                           <b>You can read more <a href="
+"\"https://neahplugins.com/how-to-customize-the-quote-request-page/\" target="
+"\"_blank\" >\n"
+"                                           How to customize the quote request "
+"page</a></b>  <br /><br />\n"
+"                                           You can also use the short code "
+"<b>[gpls_woo_rfq_get_cart_sc]</b>  in your own page.</"
+"p>                                           \n"
+"                                             "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:841
+msgid "Request for Quote Page URL"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:843
+msgid ""
+"Request for Quote Page URL.Please show the full URL. Use the same domain/"
+"subdomain name as your site.<br />"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:863
+msgid "Choose Session method"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:866
+msgid "Cookie"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:867
+msgid "PHP Sessions"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:869
+msgid ""
+"Some Hosting providers do not allow PHP sessions.<br />\n"
+"                                 If there is a problem with items showing in the "
+"quote request page,<br /> changing the session method could help."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:876
+msgid "Cookie Name Starting Characters"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:878
+msgid "Some caching platforms use this to avoid caching cookies."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:884
+msgid "Days to keep items in quote cart(greater than 0)"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:890
+msgid ""
+"Number of days to keep items in the quote cart.<br /> Should be greater than 0.  "
+"Default is 1 day(24 hours). <br />\n"
+"                                Increase this if you want to keep items in the "
+"quote cart longer.<br /> Larger numbers take up more room in the database"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:910
+msgid "Add to Quote Button"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:917
+msgid "Choose the position of \"add to quote\" in the shop and archive"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:920
+msgid "At the bottom"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:921
+msgid "At the top"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:922
+msgid "Before the title"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:923
+msgid "After title"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:925
+msgid "Default position is at the bottom.\"."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:934
+msgid "Choose the position of \"add to quote\" in the single product"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:937
+msgid "Before Add to Cart"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:938
+msgid "After Add to Cart"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:941
+msgid ""
+". This only matters when using normal checkout with prices showing.\n"
+"                                <br />Default position is before add to cart.\"."
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:958
+msgid "Admin Page"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:960
+msgid ""
+"<span style=\"color:navy;font-size:small\">\n"
+"                                Favorites admin Page for searching and exporting "
+"all your customers favorites: available in the\n"
+"                                 <a href=\"https://neahplugins.com/product/"
+"woocommerce-quote-request-plus/\">Plus Version</a></span>.<p><b>Exclude this "
+"page from page caching. \n"
+"                                           You can read more <a href=\"https://"
+"neahplugins.com/how-to-make-the-np-quote-plugin-work-with-page-caching/\" target="
+"\"_blank\" >How to make the NP Quote Plugin work with page caching plugins</a> </"
+"b></p>\n"
+"                                           </b> You can modify the <i>Quote "
+"Request</i> page by modifying the \"fav-cart.php\"\n"
+"                                            template in \"plugins/woo-rfq-for-"
+"woocommerce/woocommerce/woo-rfq/fav-cart.php\".\n"
+"                                           Create the \"woo-rfq\" folder under "
+"\"your_child_theme/woocommerce\" and  Copy the \"fav-cart.php\" file to the "
+"\"woo-rfq\" folder \n"
+"                                           under the WooCommerce directory in "
+"your child theme directory and modify it. "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:977
+msgid "Allow Customers to Save Favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:979
+msgid ""
+"If enabled, customers can save favorites and submit later for purchase or quote "
+"request"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:985
+msgid "Enable saving favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:987
+msgid "Enable feature"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:992
+msgid "Enable saving favorites for visitors"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:994
+msgid ""
+"Enable feature for visitors.<br/>\n"
+"                             Visitors favorites are saved on a temporary basis."
+"<br/> See \"Quote Request Page\" setting for number of days quotes are kept"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1001
+msgid "Favorites Label"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1003
+msgid "The label to use for favorites in \"my account\" section"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1009
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1012
+#: woocommerce/woo-rfq/link-to-favs-page.php:8
+msgid "View Favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1011
+msgid "The label to use for link to favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1018
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1021
+#: woocommerce/woo-rfq/add-to-favs-link.php:8
+msgid "Add to Favorites"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1020
+msgid "The label to use for \"Add to Favorites\" "
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1026
+msgid "Request for Favorites Page URL"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1028
+msgid ""
+"Favorites Page URL.Please show the full URL. Use the same domain/subdomain name "
+"as your site.<br />"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1042
+msgid "Change \"reply to\" in admin email to customer email"
+msgstr ""
+
+#: includes/classes/admin/settings/gpls_woo_rfq_settings.php:1044
+msgid ""
+"Change \"reply to\" to the customer billing email in emails sent to admin for "
+"convenience."
+msgstr ""
+
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1167
+#: includes/classes/cart/gpls_woo_rfq_cart.php:1282
+msgid "In Quote List"
+msgstr ""
+
+#: includes/classes/cart/gpls_woo_rfq_cart.php:2538
+msgid "Add to Quote"
+msgstr ""
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:136
+msgid "required"
+msgstr ""
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:154
+msgid "Update country"
+msgstr ""
+
+#: includes/classes/checkout/gpls_woo_rfq_checkout.php:317
+#: woo-rfq-includes/woo-rfq-functions.php:1812
+msgid "Submit Your Request For Quote"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:30
+msgid "RFQ-ToolKit New Request for Quote"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:31
+msgid ""
+"This is an quote request notification sent to customers containing their order "
+"details after quote request."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:67
+msgid "Your {site_title} quote request confirmation from {order_date}"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:78
+msgid "Thank you for your quote request"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:209
+#: includes/classes/emails/class-wc-email-new-rfq.php:198
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:214
+#: includes/classes/emails/class-wc-email-new-rfq.php:202
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:63
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:216
+#: includes/classes/emails/class-wc-email-new-rfq.php:204
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:222
+#: includes/classes/emails/class-wc-email-new-rfq.php:216
+msgid "Subject"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:231
+#: includes/classes/emails/class-wc-email-new-rfq.php:223
+msgid "Email heading"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:240
+msgid "Content Intro"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:242
+msgid "This controls the first paragrah contained within the email notification."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:243
+#: includes/classes/emails/class-wc-email-customer-rfq.php:253
+#: includes/classes/emails/class-wc-email-new-rfq.php:235
+msgid "N/A"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:250
+#: includes/classes/emails/class-wc-email-new-rfq.php:232
+msgid "Additional content"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:251
+#: includes/classes/emails/class-wc-email-new-rfq.php:233
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:260
+#: includes/classes/emails/class-wc-email-new-rfq.php:241
+msgid "Email type"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-customer-rfq.php:262
+#: includes/classes/emails/class-wc-email-new-rfq.php:243
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:28
+msgid "RFQ-ToolKit New RFQ Admin"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:30
+msgid ""
+"New quote request emails are sent to the recipient list when an order is "
+"received."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:69
+msgid "{site_title} New customer quote request #({order_number}) on {order_date}"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:74
+msgid "New customer quote request"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:208
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-new-rfq.php:211
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr ""
+
+#: includes/classes/emails/class-wc-email-rfq.php:76
+msgid "Note"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:22
+#: woo-rfq-for-woocommerce.php:668 woo-rfq-for-woocommerce.php:764
+msgid "Quote Request"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:23
+msgid "Allows RFQ to go through."
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:65
+msgid "Skip Payment For Quote Requests"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:69
+msgid "Title"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:71
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:72
+msgid "Request For Quote"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:76
+msgid "Description"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:78
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:83
+msgid "Instructions"
+msgstr ""
+
+#: includes/classes/gateway/wc-gateway-gpls-request-quote.php:85
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:207
+msgid "View cart"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:845
+msgid "You have items in your Request for Quote Cart"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:1326
+#: includes/classes/gpls_woo_rfq_functions.php:1360
+#: includes/classes/gpls_woo_rfq_functions.php:1699
+#: includes/classes/gpls_woo_rfq_functions.php:1735
+msgid "You RFQ cart is empty and was not submitted"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:1651
+msgid "Please enter first name, last name and a valid email"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:1663
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:1673
+msgid "Invalid phone number."
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:1979
+msgid "You RFQ has been successfully submitted!"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:3740
+msgid "RFQ: enable RFQ"
+msgstr ""
+
+#: includes/classes/gpls_woo_rfq_functions.php:3741
+msgid "RFQ: Undo enable RFQ"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:986
+msgid "Available in Premium Version:"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1024
+msgid "Use google recaptcha for quote request:"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1054
+msgid "Get Quote Request Plus!"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1060
+msgid "Get Premium!"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1077
+msgid "Other Quote Request Plugins:"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1082
+msgid "PDF Plugin for Quote Request:"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1082
+msgid "Send PDF attachments of the quote email to the customer."
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1094
+msgid "File Upload Plugin for Quote Request:"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1094
+msgid "Allow customers to upload files along with their quote request."
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1206
+msgid "No payment"
+msgstr ""
+
+#: woo-rfq-includes/woo-rfq-functions.php:1823
+#: woocommerce/cart/proceed-to-checkout-button.php:56
+msgid "Proceed To Submit Your RFQ"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:50
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:65
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/emails/admin-new-rfq.php:27
+#: woocommerce/emails/plain/admin-new-rfq.php:27
+#, php-format
+msgid ""
+"You have received an request for a quote from %s. The request is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-rfq.php:34 woocommerce/emails/customer-note.php:64
+#: woocommerce/emails/customer-rfq.php:45
+#: woocommerce/emails/plain/admin-new-rfq.php:34
+#: woocommerce/emails/plain/customer-note.php:64
+#: woocommerce/emails/plain/customer-rfq.php:45
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-rfq.php:43 woocommerce/emails/customer-note.php:71
+#: woocommerce/emails/customer-rfq.php:51
+#: woocommerce/emails/plain/admin-new-rfq.php:43
+#: woocommerce/emails/plain/customer-note.php:71
+#: woocommerce/emails/plain/customer-rfq.php:51
+#: woocommerce/woo-rfq/fav-cart.php:116 woocommerce/woo-rfq/fav-cart.php:187
+#: woocommerce/woo-rfq/rfq-cart.php:90 woocommerce/woo-rfq/rfq-cart.php:152
+msgid "Product"
+msgstr ""
+
+#: woocommerce/emails/admin-new-rfq.php:45 woocommerce/emails/customer-note.php:73
+#: woocommerce/emails/customer-rfq.php:52
+#: woocommerce/emails/plain/admin-new-rfq.php:45
+#: woocommerce/emails/plain/customer-note.php:73
+#: woocommerce/emails/plain/customer-rfq.php:52 woocommerce/woo-rfq/rfq-cart.php:91
+#: woocommerce/woo-rfq/rfq-cart.php:177
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/emails/admin-new-rfq.php:47 woocommerce/emails/customer-note.php:76
+#: woocommerce/emails/customer-rfq.php:55
+#: woocommerce/emails/plain/admin-new-rfq.php:47
+#: woocommerce/emails/plain/customer-note.php:76
+#: woocommerce/emails/plain/customer-rfq.php:55
+#: woocommerce/woo-rfq/fav-cart.php:117 woocommerce/woo-rfq/fav-cart.php:212
+msgid "Price"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:39
+#: woocommerce/emails/plain/customer-note.php:39
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:56
+#: woocommerce/emails/plain/customer-note.php:56
+#, php-format
+msgid "You can respond by clicking %s"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:57
+#: woocommerce/emails/plain/customer-note.php:57
+msgid "here"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:63
+#: woocommerce/emails/plain/customer-note.php:63
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-rfq.php:40
+#: woocommerce/emails/plain/customer-rfq.php:40
+msgid ""
+"Your request has been received and is now being reviewed. Your request details "
+"are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:50
+#: woocommerce/emails/plain/email-order-items.php:50
+#: woocommerce/emails/plain/rfqtk-email-order-items.php:50
+#: woocommerce/emails/rfqtk-email-order-items.php:50
+msgid "Product image"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:22
+#: woocommerce/emails/subscription-info.php:22
+msgid "Subscription information"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:26
+#: woocommerce/emails/subscription-info.php:26
+msgctxt "subscription ID table heading"
+msgid "ID"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:27
+#: woocommerce/emails/subscription-info.php:27
+msgctxt "table heading"
+msgid "Start date"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:28
+#: woocommerce/emails/subscription-info.php:28
+msgctxt "table heading"
+msgid "End date"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:30
+#: woocommerce/emails/subscription-info.php:30
+msgctxt "table heading"
+msgid "Recurring total"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:40
+#: woocommerce/emails/subscription-info.php:40
+msgctxt "Used as end date for an indefinite subscription"
+msgid "When cancelled"
+msgstr ""
+
+#: woocommerce/emails/plain/subscription-info.php:46
+#: woocommerce/emails/subscription-info.php:46
+#, php-format
+msgid "Next payment: %s"
+msgstr ""
+
+#: woocommerce/woo-rfq/account_password.php:8
+msgid ""
+"Hint: The password should be at least twelve characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % "
+"^ & )."
+msgstr ""
+
+#: woocommerce/woo-rfq/account_password.php:9
+msgid "Please choose a password"
+msgstr ""
+
+#: woocommerce/woo-rfq/account_password.php:13
+msgid "Create Password"
+msgstr ""
+
+#: woocommerce/woo-rfq/account_password.php:16
+msgid "Create Password?"
+msgstr ""
+
+#: woocommerce/woo-rfq/fav-cart.php:118
+msgid "Date"
+msgstr ""
+
+#: woocommerce/woo-rfq/fav-cart.php:163 woocommerce/woo-rfq/rfq-cart.php:128
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/woo-rfq/fav-cart.php:205 woocommerce/woo-rfq/rfq-cart.php:170
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart-favs-empty.php:22
+msgid "Your Favorites List is Currently Empty."
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:304 woocommerce/woo-rfq/rfq-cart.php:311
+msgid "First Name"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:315 woocommerce/woo-rfq/rfq-cart.php:322
+msgid "Last Name"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:327 woocommerce/woo-rfq/rfq-cart.php:334
+msgid "Email"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:341 woocommerce/woo-rfq/rfq-cart.php:346
+msgid "Phone"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:357 woocommerce/woo-rfq/rfq-cart.php:364
+msgid "Company"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:375 woocommerce/woo-rfq/rfq-cart.php:381
+msgid "Country"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:389
+msgid "Required"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:415 woocommerce/woo-rfq/rfq-cart.php:424
+msgid "State"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:488
+msgid "State/County"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:500 woocommerce/woo-rfq/rfq-cart.php:505
+msgid "Address"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:517
+msgid "Address 2"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:536 woocommerce/woo-rfq/rfq-cart.php:544
+msgid "City"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:555 woocommerce/woo-rfq/rfq-cart.php:560
+msgid "Zip"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:587
+msgid "Customer Note"
+msgstr ""
+
+#: woocommerce/woo-rfq/rfq-cart.php:593
+msgid "Your message to us"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"NP Quote Request for WooCommerce enables your customers to easily submit a quote "
+"request to your WooCommerce store. It is very flexible and can be used in a "
+"variety of store settings. NP Quote Request for WooCommerce enables you to "
+"generate leads and engage with your customers!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Neah Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.neahplugins.com/"
+msgstr ""

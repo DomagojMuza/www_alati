@@ -10,6 +10,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<?php wp_head(); ?>
+	<link rel="icon" type="image/png" href="/wp-content/uploads/favicon.png">
 </head>
 
 <body <?php body_class(); ?>>

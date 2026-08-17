@@ -1,0 +1,27 @@
+#slider-73 .wd-slide {
+	min-height: 600px;
+}
+#slider-73 .wd-slider-arrows {
+	--wd-arrow-color: rgb(255,255,255);
+	--wd-arrow-bg: rgba(255,255,255,0.2);
+}
+
+@media (max-width: 1024px) {
+	#slider-73 .wd-slide {
+		min-height: 500px;
+	}
+	#slider-73 .wd-slider-arrows {
+		--wd-arrow-size: 0px;
+	--wd-arrow-icon-size: 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	#slider-73 .wd-slide {
+		min-height: 500px;
+	}
+	#slider-73 .wd-slider-arrows {
+		--wd-arrow-size: 0px;
+	--wd-arrow-icon-size: 0px;
+	}
+}
