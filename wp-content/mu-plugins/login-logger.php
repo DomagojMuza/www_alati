@@ -1,12 +1,11 @@
 <?php
 
+require_once '/etc/wp-monitor.conf.php';
+
 add_filter('rest_endpoints', function($endpoints) {
     unset($endpoints['/batch/v1']);
     return $endpoints;
 });
-
-define('TELEGRAM_TOKEN', '8884057077:AAHDtOYC51dTnDPAExUdBqjpxTzr6iOP9Uw');
-define('TELEGRAM_CHAT_ID', '-5510511700');
 
 
 function send_telegram($message) {
